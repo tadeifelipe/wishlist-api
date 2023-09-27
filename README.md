@@ -68,7 +68,9 @@ Os serviços de Costumers e Products possuem dados fakes para serem utilizados:
 
 Utilize `./mvnw test` para executar os cenários de testes.
 
-> O projeto utiliza [JaCoCo](https://www.jacoco.org/jacoco/trunk/index.html) para facilitar a visualização e cobertura dos cenários
+> O projeto utiliza [JaCoCo](https://www.jacoco.org/jacoco/trunk/index.html) para facilitar a visualização e cobertura dos cenários.
+
+> Atualmente com uma **cobertura de testes em 88%** da aplicação.
 
 
 # Technologies
@@ -82,5 +84,11 @@ Utilize `./mvnw test` para executar os cenários de testes.
 + **springdoc-openapi-starter-webmvc-ui** para documentar a API
 
 
+# Pontos de melhorias
+> Por se tratar em ambiente microserviços, **para melhorar a observalidade, métricas e análise dos logs**, podemos utilizar um serviço de logs centralizados.
+Por exemplo [Elastic](https://www.elastic.co/) ou [Splunk](https://www.splunk.com/)
+
+
+> Para melhorar a especificação da API e testes, podemos utilizar [Cucumber](https://cucumber.io/), um framework basead em Behavior-Driven Development (BDD).
 
 
