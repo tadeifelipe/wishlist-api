@@ -22,11 +22,11 @@ Imagens disponíveis no [DockerHub/tadeifelipe](https://hub.docker.com/search?q=
                 └──────────┘
                      ↑ JSON/HTTP
                      ↓
-       ┌──────────┐          ┌──────────┐
-       │    ☁     │          │    ☁     │
-       │ Costumers│          │ Products │
-       │ Service  │          │ Service  │
-       └──────────┘          └──────────┘
+       ┌──────────┐      ┌──────────┐
+       │    ☁     │      │    ☁     │
+       │ Costumers│      │ Products │
+       │ Service  │      │ Service  │
+       └──────────┘      └──────────┘
 ```
 
 # Get Started
@@ -89,7 +89,7 @@ Utilize `./mvnw test` para executar os cenários de testes.
 
 
 # Pontos de melhorias
-> Para melhorar o desacoplamento e separação dos conceitos. Podemos utilizar poderíamos utilizar [Clean Architecture](https://www.baeldung.com/spring-boot-clean-architecture)
+> Para melhorar o desacoplamento e separação dos conceitos. Podemos utilizar [Clean Architecture](https://www.baeldung.com/spring-boot-clean-architecture)
 
 
 > Por se tratar em ambiente microserviços, **para melhorar a observalidade, métricas e análise dos logs**, podemos utilizar um serviço de logs centralizados.
