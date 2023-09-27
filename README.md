@@ -4,7 +4,11 @@ API para gerenciar lista de desejos dos clientes
 
 # Application Architecture
 
-API feita em **Java** com **SpringFramework**, utilizando **Redis** para cache e **MongoDB** para persistência de dados
+API feita em **Java** com **SpringFramework**, utilizando padrões **REST** e inspirada no padrão em camadas **MVC**. 
+
+Também utilizando **Redis** para cache e **MongoDB** para persistência de dados
+
+
 > Para os serviços de Costumers e Products, foram desenvolvidas duas apis para simular a comunicação entre os microserviços.
 Foram adicionadas imagens docker em `docker-compose.yml` para simular os serviços.
 Os serviços sobem nas portas **8081** e **8082** respectivamente
@@ -85,6 +89,9 @@ Utilize `./mvnw test` para executar os cenários de testes.
 
 
 # Pontos de melhorias
+> Para melhorar o desacoplamento e separação dos conceitos. Podemos utilizar poderíamos utilizar [Clean Architecture](https://www.baeldung.com/spring-boot-clean-architecture)
+
+
 > Por se tratar em ambiente microserviços, **para melhorar a observalidade, métricas e análise dos logs**, podemos utilizar um serviço de logs centralizados.
 Por exemplo [Elastic](https://www.elastic.co/) ou [Splunk](https://www.splunk.com/)
 
