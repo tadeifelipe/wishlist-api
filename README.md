@@ -89,13 +89,13 @@ Utilize `./mvnw test` para executar os cenários de testes.
 
 
 # Pontos de melhorias
-> Para melhorar o desacoplamento e separação dos conceitos. Podemos utilizar [Clean Architecture](https://www.baeldung.com/spring-boot-clean-architecture)
+> Para melhorar o desacoplamento e separação dos conceitos, podemos utilizar [Clean Architecture](https://www.baeldung.com/spring-boot-clean-architecture)
 
 
 > Por se tratar em ambiente microserviços, **para melhorar a observalidade, métricas e análise dos logs**, podemos utilizar um serviço de logs centralizados.
 Por exemplo [Elastic](https://www.elastic.co/) ou [Splunk](https://www.splunk.com/)
 
 
-> Para melhorar a especificação da API e testes, podemos utilizar [Cucumber](https://cucumber.io/), um framework basead em Behavior-Driven Development (BDD).
+> Para melhorar a especificação da API e testes, podemos utilizar [Cucumber](https://cucumber.io/), um framework inspirado em Behavior-Driven Development (BDD).
 
 
