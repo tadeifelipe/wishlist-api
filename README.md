@@ -1,4 +1,6 @@
 # Wishlist API
+![](https://github.com/tadeifelipe/wishlist-api/actions/workflows/build.yml/badge.svg)
+
 
 API para gerenciar lista de desejos dos clientes
 
