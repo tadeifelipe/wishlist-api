@@ -24,7 +24,6 @@ public class AddProductToWishListService {
     private final ProductRestClient productRestClient;
     private final WishListMaxSize wishListMaxSize;
 
-
     @Autowired
     public AddProductToWishListService(WishListRepository wishListRepository, WishListMapper wishListMapper,
                                        CustomerRestClient customerRestClient, ProductRestClient productRestClient, WishListMaxSize wishListMaxSize) {
@@ -49,7 +48,7 @@ public class AddProductToWishListService {
         if (productAlreadyInserted)
             throw new IllegalArgumentException("Product already inserted for this customer: " + productId);
 
-        if (wishLists.size() == wishListMaxSize.getMaxSize())
+        if (wishLists.size() > wishListMaxSize.getMaxSize())
             throw new IllegalArgumentException("Wishlist size exceeded. Max value:" + wishListMaxSize.getMaxSize());
 
         var entity = wishListMapper.toEntity(customer.id(), product);
