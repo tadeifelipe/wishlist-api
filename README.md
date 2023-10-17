@@ -1,5 +1,5 @@
 # Wishlist API
-![](https://github.com/tadeifelipe/wishlist-api/actions/workflows/build.yml/badge.svg)
+![](https://github.com/tadeifelipe/wishlist-api/actions/workflows/build.yml/badge.svg) [![codecov](https://codecov.io/github/tadeifelipe/wishlist-api/graph/badge.svg?token=H9OMSXQUS0)](https://codecov.io/github/tadeifelipe/wishlist-api)
 
 
 API para gerenciar lista de desejos dos clientes
