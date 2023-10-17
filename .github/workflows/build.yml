@@ -18,3 +18,8 @@ jobs:
 
       - name: Build with Maven
         run: ./mvnw install
+
+      - name: Upload to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          files: ./target/site/jacoco.xml
